@@ -1,0 +1,643 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke; /* this is where you can use backgroundimage or video background effects*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+nav {
+    width: 100%;
+    height: 9em;
+    background-color: white;
+    
+}
+
+nav img {
+    float: left;
+    padding-top: 1.9em; 
+    padding-left: 1em;
+    width: 15em;
+}
+
+#ulnav {
+    float: left;
+    margin-right: 5px;
+}
+
+#lisit {
+    float:left;
+    list-style: none;
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    
+
+}
+#lisitmain {
+    float:left;
+    list-style: none;
+    position: relative;
+    padding: 20px;
+    margin: 0;
+    
+
+}
+nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-size: 0.8rem;
+    padding: 1.8em 2.2em;
+    display: block;
+    text-decoration: none;
+}
+
+#lisitmain:hover #lusut{
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: grey;
+}
+
+#lusut {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.vid {
+    /*position: absolute;*/
+    right: 0;
+    left: 0;
+    /*bottom: 0;*/
+    z-index: -1;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+.name {
+    text-align: left;
+    float: left;
+    margin-left: 5em;
+    position:relative;
+    margin-right: 10em;
+    font-size: 2rem;
+}
+
+
+.brownpara {
+    
+    width: 80em;
+    margin-left: 10em;
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: 5em;
+    padding-right: 5em;
+    padding-bottom: 5em;
+}
+
+
+.sec3 {
+    background-color: rgb(222, 217, 217);
+    height: 100%;
+    display: block;
+    margin: 0;
+   
+}
+
+footer {
+   
+    height: 100px;
+    bottom: 0;
+    position:relative;
+    border: 1px black solid;
+}   
+.biopara {
+    margin: 15px 200px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.banner {
+    
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 1.2500em;
+    z-index: 1;
+    top: 50%;
+    position: absolute;
+    align-items: center;
+}
+
+.displaytext {
+    align-items: center;
+    color: #f1f1f1;
+    margin-left: 39%;
+}
+
+h2 {
+    display: block;
+    margin-left: 45%;
+   margin-top: 3%;
+   margin-bottom: 3%;
+}
+
+.mainheader {
+  text-align: center;
+   margin-bottom: 3%;
+   color: rgba(10, 10, 79, 0.761);
+   margin-top: 3%;
+}
+
+form {
+    margin-left: 45%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.secimg {
+    width: 100%;
+    
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    height: 100%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+.slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+.progsec {
+    min-height: 100vh;
+}
+
+.progsecabout {
+    min-height: 55vh;
+}
+
+.progpicbio{
+    display: inline;
+}
+
+.progsec1 {
+    min-height: 100vh;
+    text-align: center;
+}
+
+.homepageimage {
+    width: 100%;
+    
+    
+}
+.secimg {
+    width: 100%;
+    height: 60em;
+    padding: 5em;
+    border-radius: 6em;
+}
+
+.fut {
+    padding-left: 4rem auto;
+    text-align: center;
+    
+}
+
+.faculimage {
+    height: 20em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 7em; 
+    display: inline;
+    float: left;  
+}
+
+.faculpara {
+    padding-right: 8rem;
+    padding-left: 8rem;
+    padding-top: 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+span {
+    padding: 1em;
+}
+
+.studcoho {
+    margin: 2em;
+    text-align: center;
+    
+}
+
+.studhead {
+    text-align: center;
+    padding-top: 3em;
+}
+
+.progparag {
+    line-height: 1.5;
+    padding-right: 6em;
+    padding-left: 6em;
+    padding-top: 1em;
+    font-size: large;
+    text-align: justify;
+}
+
+.progparagbullets {
+    line-height: 1.5;
+    padding-right: 4em;
+    padding-left: 6em;
+    padding-top: 1em;
+    font-size: large;
+    text-align: center;
+    list-style: none;
+}
+
+.ourpic {
+    height: 35em;
+    display: inline;
+    border-radius: 0em;
+    padding: 0.2em;
+   
+    
+}
+
+.studbiosec {
+    min-height: 100vh;
+    
+}
+.studbioimagepage {
+    width: 17em;
+    display: inline-flex;
+}
+
+.studprofdic a:hover{
+    background-color: rgba(7, 7, 243, 0.39);
+}
+
+.studbiosec div{
+    padding:3em;
+}
+
+.homepagebanner {
+    background-color: rgba(66, 70, 197, 0.1);
+}
+
+.studpagesection {
+    min-height: 100vh;
+}
+
+.studprofdic{
+    padding-left: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.student_header{
+    color: #090755;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+   
+}
+
+.bioimage {
+    width: 20em;
+    float: right;
+    margin-right: 7em;
+    margin-bottom: 3em;
+    border-radius: 8em;
+    margin-left: 6em;
+    
+}
+
+.student_classification {
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    color: #090755;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.student_major{
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    color: #090755;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.linkedin_prof{
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    color: #0a075553;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.bio {
+    justify-content: center;
+    margin-left: 10em;
+    margin-right: 6em;
+    margin-top: 5em;
+    line-height: 1.5;
+    margin-bottom: 5em;
+    color: #090738;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.mainheader {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+     margin-bottom: 3%;
+     color: #090755;
+     margin-top: 3%;
+  }
+  
+  .mainheaderpro {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.2rem;
+     margin-bottom: 3%;
+     color: #090755;
+     margin-top: 3%;
+  }
+  .slider{
+    position: relative;
+    width:100%;
+    margin:auto;
+    overflow: hidden;
+
+  }
+
+  .slider img{
+    height: 70%;
+    display: none;
+  }
+
+  img.displaySlide{
+    display: block;
+  }
+
+  .slider button{
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.385);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .previous {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+
+  .sub_heading{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #090755;
+    font-size: 1.5rem;
+  }
+
+  .cityvid{
+    background-color: rgba(224, 46, 46, 0.403);
+    background-image: url(img/videopresentation.jpg);
+    background-size: contain;
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    display: inline-block;
+    margin: 1.5em;
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    text-align: center;
+    padding-top: 70px;
+    
+  }
+  .citynew{
+    background-color: rgba(48, 103, 191, 0.35);
+    background-image: url(img/newoleans2.jpg);
+    background-size: contain;
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    display: inline-block;
+    margin: 1.5em;
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    text-align: center;
+    padding-top: 1rem;
+    
+  }
+
+  .citywash{
+    background-color: rgba(194, 179, 63, 0.428);
+    background-image: url(img/washington3.jpg);
+    background-size: contain;
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    display: inline-block;
+    margin: 1.5em;
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .citycali{
+    background-color: rgba(126, 43, 215, 0.527);
+    background-image: url(img/california3.jpg);
+    background-size: contain;
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    display: inline-block;
+    margin: 1.5em;
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    text-align: center;
+    padding-top: 1rem;
+    
+  }
+
+
+  .cityoak{
+    background-color: rgba(73, 179, 37, 0.516);
+    background-image: url(img/oakridge3.jpg);
+    background-size: contain;
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    display: inline-block;
+    margin: 1.5em;
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    text-align: center;
+    padding-top: 70px;
+    
+  }
+
+
+
+  .mpure_img{
+    height: 400px;    
+    
+  }
+
+  .bnaccbullets{
+    line-height: 1.5;
+    padding-right: 6em;
+    padding-left: 9em;
+    padding-top: 1em;
+    font-size: large;
+    text-align: justify;
+  }
+ 
+  .progpageimg{
+    height: 700px;
+  }
+
+  i {
+    text-align: left;
+    font-size: 20px;
+    color: blue;
+    padding-right: 20px;
+    
+  }
+
+  .cred {
+    text-align: center;
+    padding-bottom: 7em;
+    font-size: 17px;
+  }
+
+  .videopreseheader{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+     margin-bottom: 3%;
+     color: #090755;
+     margin-top: 7%;
+  }
+
+  .cityimg {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .cititext{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+    
+  }
+
+  .presespacing{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #ulnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .citimage {
+    width: 40em;
+    float: right;
+    margin-right: 7em;
+    margin-bottom: 3em;
+   
+    margin-left: 6em;
+    
+}
+
+.piclabel{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #080654;
+}
